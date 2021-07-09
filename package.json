@@ -16,5 +16,8 @@
   "devDependencies": {
     "@sanity/cli": "^2.0.0",
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/sanity": "^0.9.4"
   }
 }
