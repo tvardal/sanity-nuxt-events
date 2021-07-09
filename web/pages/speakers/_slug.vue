@@ -115,6 +115,20 @@ export default {
   }
 }
 
+.social {
+  font-size: var(--font-large-size);
+  line-height: var(--font-large-line-height);
+
+  @nest & p {
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  @media (--media-min-medium) {
+    font-size: var(--font-title3-size);
+    line-height: var(--font-title3-line-height);
+  }
+}
+
 .sessions {
   text-align: left;
   max-width: 40rem;
